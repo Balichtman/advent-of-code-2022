@@ -10,6 +10,7 @@ for line in lines:
         all_sums.append(current_total)
         current_total = 0
 
+all_sums.append(current_total)
 all_sums.sort(reverse=True)
 sum_of_top_3 = 0
 for s in all_sums[0:3]:

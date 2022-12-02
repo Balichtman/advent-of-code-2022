@@ -11,4 +11,7 @@ for line in lines:
             highest = current_total
         current_total = 0
 
+if current_total > highest:
+    highest = current_total
+
 print(highest)

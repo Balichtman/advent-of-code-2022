@@ -6,7 +6,6 @@ cycle = 1
 
 def do_cycle():
     global cycle
-    global signal_strengths
     if cycle == x or cycle == x+2 or cycle == x+1:
         print("#", end="")
     else:
